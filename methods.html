@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="google-site-verification" content="7eDjHMCU1NQK0HwCiHV-Y6E9pfOe8JkAc49dcdl3mWc" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AML31 Supplementary Information</title>
+    <link rel="shortcut icon" href="http://genome.wustl.edu/workspace/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function() {
+      jQuery(".content").hide();
+      $(".arrow-down").hide();
+
+      //toggle the componenet with class msg_body
+      jQuery(".heading").click(function()
+      {
+      jQuery(this).next(".content").slideToggle(500);
+      $(this).find(".arrow-right, .arrow-down").toggle();
+
+      });
+      });
+    </script>
+  </head>
+
+  <body class="home">
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="row helix">
+          <img src="tgi_logo_shadow.png" title="The Genome Institute at Washington Unversity School of Medicine" alt="The Genome Institute at Washington Unversity School of Medicine" style="float:left;margin-left:25px;"/>
+        </div>
+      </div>
+    </div>
+    <div class="container background">
+      <div class="row">
+        <div class="aml31top">
+          <p><b>Sequence data, analyses, and resources related to the ultra-deep sequencing of the AML31 tumor, relapse, and matched normal</b></p>
+          <p style="font-size:small;margin:20px;">
+            For a full description, see:<br />
+            <span style="font-weight:bold;">Optimizing cancer genome sequencing and analysis</span>. Author List. Author List. Author List. Author List. Author List. Author List. Author List. Author List. Cell. 2015 doi:12345cell/asdf
+          </p>
+        </div>
+
+        
+        <div class="aml31span4 main-block publications">
+          <div class="block-padding">            
+            <h2 class="heading">    
+              <div class="arrow-right">&#9658;</div>
+              <div class="arrow-down">&#9660;</div>
+              Sequence Data</h2>
+            <div class="content">
+              <p>Almost 3 terabases of sequence was produced from these samples. These are archived in dbGaP under accession id <a href="">phs123456.v1</a>. Direct links to individual members of the dataset are below.<p>
+                <table>
+                  <tr>
+                    <td class="aml31tablehead">Data type</td>
+                    <td class="aml31tablehead">Normal sample</td>
+                    <td class="aml31tablehead">Primary tumor sample</td>
+                    <td class="aml31tablehead">Relapse tumor sample</td></tr>
+                  <tr class="altrow">
+                    <td>Total number of DNA libraries </td>
+                    <td>12 libraries <br />as 15 fractions </td>
+                    <td>13 libraries <br />as 23 fractions </td>
+                    <td>8 libraries <br />as 10 fractions </td></tr>
+                  <tr>                  
+                    <td>Illumina whole genome sequencing (WGS) *</td>
+                    <td>1 library, 4 reps;<br />422 Gbp; 121x cov; 2,798,334,336 bp breadth<br /><a href="">dbGaP accession</a></td>
+                    <td>4 libraries; 12 reps<br />1,167 Gbp; 312x cov; 2,812,535,568 bp breadth<br /><a href="">dbGaP accession</a></td>
+                    <td>1 library, 2 reps<br />153 Gbp; 38x cov; 2,565,812,211 bp breadth<br /><a href="">dbGaP accession</a></td></tr>
+                  <tr class="altrow">
+                    <td>Illumina exome data (NimbleGen SeqCap EZ v3.0 exome) *</td>
+                    <td>1 library, 1 reps<br />57 Gbp; 263x cov; 148,727,026 bp breadth<br /><a href="">dbGaP accession</a></td>
+                    <td>9 libraries<br />100 Gbp; 433x cov; 174,183,401 bp breadth<br /><a href="">dbGaP accession</a></td>
+                    <td>3 libraries<br />77 Gbp; 251x cov; 221,017,304 bp breadth<br /><a href="">dbGaP accession</a></td></tr>
+                  <tr>
+                    <td>NimbleGen custom capture (200k sites) sequenced with Illumina * </td>
+                    <td>7 libraries, 7 reps<br /> 99 Gbp;1,130x cov; 237,811,149bp breadth<br /><a href="">dbGaP accession</a></td>
+                    <td>6 libraries, 6 reps<br /> 128 Gbp; 1,500x cov; 358,872,658 bp breadth<br /><a href="">dbGaP accession</a></td>
+                    <td>2 libraries, 2 reps<br />29 Gbp; 280x cov; 70,503,530 bp breadth<br /><a href="">dbGaP accession</a></td></tr>
+                  <tr class="altrow">
+                    <td>NimbleGen custom capture (200k sites) sequenced with Ion Torrent </td>
+                    <td>1 library<br />6.1 Gbp; 43x cov; 25,367,661 bp breadth<br /><a href="">dbGaP accession</a></td>
+                    <td>1 library<br />6.1 Gbp; 49x cov; 30,630,716 bp breadth<br /><a href="">dbGaP accession</a></td>
+                    <td>1 library<br />6.6 Gbp; 45x cov; 36,074,328 bp breadth<br /><a href="">dbGaP accession</a></td></tr>
+                  <tr>
+                    <td>IDT custom capture (AML RMG set) sequenced with Illumina</td>
+                    <td>4 libraries<br />3 Gbp; 270x cov; 5,767,262 bp breadth<br /><a href="">dbGaP accession</a></td>
+                  <td>10 libraries<br />7 Gbp; 1209x cov; 7,305,924 bp breadth<br /><a href="">dbGaP accession</a></td>
+                  <td>N/A</td></tr>
+                <tr class="altrow">
+                  <td>IDT custom capture (145 target sites) sequenced with Illumina</td>
+                  <td>4 libraries, 4 reps<br />14 Gbp; 6,994x cov; 2,801,436 bp breadth<br /><a href="">dbGaP accession</a></td>
+                  <td>3 libraries, 3 reps<br />9 Gbp; 6,939x cov; 2,586,556 bp breadth<br /><a href="">dbGaP accession</a></td>
+                  <td>3 libraries, 3 reps<br /> 8 Gbp; 9,713x cov; 2,378,313 bp breadth<br /><a href="">dbGaP accession</a></td></tr>
+                <tr>
+                  <td>ddPCR sequencing (15 targets)</td>
+                  <td>N/A</td>
+                  <td>6,109x cov (valid droplets)<br /><a href="">dbGaP accession</a></td>
+                  <td>5,619x cov (valid droplets)<br /><a href="">dbGaP accession</a></td></tr>
+                <tr class="altrow">
+                  <td>PCR Amplicon Ion Torrent Sequencing (11 cancer driver targets). &nbsp;Additional sample timepoints not summarized here.</td>
+                  <td>6,846x cov;<br /><a href="">dbGaP accession</a></td>
+                  <td>12,299x cov;<br /><a href="">dbGaP accession</a></td>
+                  <td>13,725x cov;<br /><a href="">dbGaP accession</a></td></tr>
+                <tr>
+                  <td>Illumina RNA-seq</td>
+                  <td>N/A</td>
+                  <td>8 libraries; 542 Gbp;<br /><a href="">dbGaP accession</a></td>
+                  <td>1 library; 32 Gbp;<br /><a href="">dbGaP accession</a></td>
+                </tr>
+              </table>
+                
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="aml31span4 main-block genomes">
+          <div class="block-padding collapsable">
+            <h2 class="heading">    
+            <div class="arrow-right">&#9658;</div>
+            <div class="arrow-down">&#9660;</div>
+            Analyses</h2>
+            <div class="content">
+            <ul class="analysislist">
+              <li>371,976 somatic variants called by seven different variant callers run on the WGS data. This list includes readcounts from WGS and a listing of which callers detected each site. The file is hosted on dbGaP, since some variants were ultimately determined to be germline. <a href="">dbGaP accession</a></li>
+              <li>198,814 variants validated on a Nimblegen custom capture array. This list includes readcounts from all sequence datasets and RNAseq. The file is hosted on dbGaP, since some variants were ultimately determined to be germline. <a href="">dbGaP accession</a></li>
+              <li><a href="suppTable_platinumList.tsv">"Platinum" list of 1,343 validated somatic SNVs</a>. These are highly-confident variant calls derived from ultra-deep sequencing, extensive filtering, and manual curation. This list includes readcounts from all sequence datasets and RNAseq. Full details can be found in the <a href="">Supplemental Information</a>, section A.1.2</li>
+              <li><a href="suppTable_goldList.tsv">"Gold" list of 3,959 somatic SNVs</a>. This list contains all the platinum sites, plus an additional 2,615 sites that are potentially valid, but did not meet the threshold of evidence that we required for the platinum list. In most cases, deeper sequencing would be needed to verify these SNVs. Full details can be found in the <a href="">Supplemental Information</a>, section A.1.2</li>
+              <li><a href="suppTable_snvPerformance.tsv">Caller Performance, using the platinum list as a truth set</a>. For a full description of the parameters used for each caller, see the <a href="">Supplemental Information</a>, section A.1.2. Key below:
+                <ul class="sublist">
+                  <li class="sub">uni = union of two or more callers</li>
+                  <li class="sub">int = intersection of two or more callers
+                  <li class="sub">bas = Bassovac</li>
+                  <li class="sub">mut = Mutect</li>
+                  <li class="sub">seu = Seurat</li>
+                  <li class="sub">shi = Shimmer</li>
+                  <li class="sub">sni = Sniper</li>
+                  <li class="sub">str = Strelka</li>
+                  <li class="sub">var = VarScan</li>
+                </ul>
+              </li>
+            </ul>
+            <br />      
+            <br />
+            </div>
+          </div>
+        </div>
+
+
+        <div class="aml31span4 main-block people">
+          <div class="block-padding">
+            <h2 class="heading">    
+              <div class="arrow-right">&#9658;</div>
+              <div class="arrow-down">&#9660;</div>
+              Visualizations</h2>
+            <div class="content">
+              <ul class="analysislist">
+                <li>asdf</li>
+                <li>asdf</li>
+                <li>asdf</li>
+                <li>asdf</li>
+                <li>asdf</li>
+                <li>asdf</li>
+                <li>asdf</li>
+              </ul>
+            </div>
+          </div>
+        </div>        
+
+
+
+        <div class="aml31span4 main-block projects">
+          <div class="block-padding">
+            <h2 class="heading">    
+            <div class="arrow-right">&#9658;</div>
+            <div class="arrow-down">&#9660;</div>
+            Tools</h2>
+            <div class="content">
+              <ul class="analysislist">
+                <li><a href="http://github.com/genome/aml31Benchmarking">R package for benchmarking variant calls against the platinum and gold SNV lists</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>        
+      </div>
+
+
+
+    </div>
+    <div class="container footer">
+      <div class="row">
+        <div class="span11 social-links" style="display: inline-block;">
+          <ul>
+            <li>
+              <a href="http://www.facebook.com/pages/The-Genome-Institute-at-Washington-University/107175642653384?ref=ts">
+                <img src="http://genome.wustl.edu/workspace/images/icons/social/facebook.png" width="32" height="32" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.flickr.com/photos/genomeinstitute/">
+                <img src="http://genome.wustl.edu/workspace/images/icons/social/flickr.png" width="32" height="32" />
+              </a>
+            </li>
+            <li>
+              <a href="https://plus.google.com/108141467205273112477">
+                <img src="http://genome.wustl.edu/workspace/images/icons/social/google_plus.png" width="32" height="32" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.linkedin.com/groups?gid=3113357">
+                <img src="http://genome.wustl.edu/workspace/images/icons/social/linkedin.png" width="32" height="32" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.twitter.com/GenomeInstitute">
+                <img src="http://genome.wustl.edu/workspace/images/icons/social/twitter.png" width="32" height="32" />
+              </a>
+            </li>
+            <li>
+              <a href="http://en.wikipedia.org/wiki/The_Genome_Institute">
+                <img src="http://genome.wustl.edu/workspace/images/icons/social/wikipedia.png" width="32" height="32" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.youtube.com/user/TheGenomeinstitute">
+                <img src="http://genome.wustl.edu/workspace/images/icons/social/youtube.png" width="32" height="32" />
+              </a>
+            </li>
+            <li>
+              <a href="/rss">
+                <img src="http://genome.wustl.edu/workspace/images/icons/rss_icon.png" width="32" height="32" />
+              </a>
+            </li>
+          </ul>
+          <br />
+          <br />&nbsp;
+        </div>
+      </div>
+    </div>
+    <div class="container copyright">
+      <div class="row">
+        <div class="span12">
+          <span class="copyright">
+            Copyright © 1993-2014 Washington University in St. Louis. All rights reserved.
+          </span>
+          <span class="wustl-logo">
+            <a href="http://medschool.wustl.edu/">
+              <img src="http://genome.wustl.edu/workspace/images/wustl-med-school-logo.png" width="260" height="37" title="Washington University School of Medicine" alt="Washington University School of Medicine" />
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
