@@ -7861,7 +7861,11 @@ table, td{
 .aml31span4 {
     width: 700px;
     margin-left:35px;
-    cursor:pointer; 
+} 
+
+.indexspan4 {
+    width: 300px;
+    margin-left:35px;
 } 
 
 .content{
@@ -7891,11 +7895,6 @@ table, td{
 /* .collapse {*/
 /*   background: url("rightarrow.png") top left no-repeat;*/
 /* } */
-
-.header{
-  padding-left:15px;
-  cursor:pointer;
-}
 
 .arrow-down{
   margin-left:-20px;
@@ -7961,4 +7960,8 @@ table, td{
 }
 .navcite{
   border-bottom: 3px solid #000;
+}
+
+.indeximg{
+  border:1px solid #999;
 }
