@@ -7965,3 +7965,28 @@ table, td{
 .indeximg{
   border:1px solid #999;
 }
+
+h3{
+  font-family: "Helvetica","Arial",sans-serif;
+}
+
+p{
+    color:#333;
+}
+
+.contents{
+    margin-left:10px;
+    margin-bottom:3px;
+    list-style-type: square;
+}
+
+.hrdiv2 {
+    color:#999;
+    background-color:#999;
+    height:1px;
+}
+
+a {
+    color: #333;
+    text-decoration: underline;
+}
