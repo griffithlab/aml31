@@ -110,12 +110,38 @@
                   <td>1 library; 32 Gbp;<br /><a href="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000159">dbGaP accession</a></td>
                 </tr>
               </table>
-                
+              
+              <p>
+                Some of the above data sets involve capture prior to sequencing. The following BED files describe these capture reagents. Note that some of these bed files have two tracks that are concatenated together. One track correponds to the actual probe positions ('probes' or 'tiled regions'), the other track corresponds to the regions targeted by the design ('targets' or 'target regions'). For most analysis, you can just select the target region, or merge all the regions together. 
+              </p>
+
+              <table>
+              <tr>
+                  <td class="aml31tablehead">Bed File</td>
+                  <td class="aml31tablehead">MD5 file</td>
+                  <td class="aml31tablehead">Description</td>
+              </tr>
+              <tr class="altrow">
+                  <td><a href="NimbleGen_v3_Exome.hg19.bed">NimbleGen_v3_Exome.hg19.bed</a></td>
+                  <td><a href="NimbleGen_v3_Exome.hg19.bed.md5">NimbleGen_v3_Exome.hg19.bed.md5</a></td>
+                  <td>Bed file (with a single track only) describing the NimbleGen v3 exome reagent using build hg19 coordinates</td>
+              </tr>
+              <tr>
+                  <td><a href="AML31_200k_snvs_custom_hg19.bed">AML31_200k_snvs_custom_hg19.bed</a></td>
+                  <td><a href="AML31_200k_snvs_custom_hg19.bed.md5">AML31_200k_snvs_custom_hg19.bed.md5</a></td>
+                  <td>Bed file (with two tracks) describing a custom capture design for ~200k SNV sites predicted in this single patient (from a primary and relapse tumor) using build hg19 coordinates</td>
+              </tr>
+              <tr class="altrow">
+                  <td><a href="AML_RMG_hg19.bed">AML_RMG_hg19.bed</a></td>
+                  <td><a href="AML_RMG_hg19.bed.md5">AML_RMG_hg19.bed.md5</a></td>
+                  <td>Bed file (with two tracks) describing a custom AML recurrently mutated gene panel design using build hg19 coordinates</td>
+              </tr>
+              </table>
+
             </div>
           </div>
         </div>
       </div>
-
 
 
     </div>
